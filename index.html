@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log&Reg</title>
+</head>
+<body>
+    <div class="container">
+        <form id="form1">
+            <h3>CREAT ACCOUNT</h3>
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="password" required>
+            <input type="password" placeholder="Confirm password" required>
+            <div id="btn">
+                <button type="button" id="nxt1">Next</button>
+            </div>
+        </form>
+
+        <form id="form2">
+            <h3>SOCIAL LINKS</h3>
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Facebook">
+            <input type="text" placeholder="Linkedin">
+            <div id="btn">
+                <button type="button" id="bck1">Back</button>
+                <button type="button" id="nxt2">Next</button>
+            </div>
+        </form>
+
+        <form id="form3">
+            <h3>PERSONAL INFO.</h3>
+            <input type="text" placeholder="First Name" required>
+            <input type="text" placeholder="Last Name" required>
+            <input type="text" placeholder="Mobile No." required>
+            <div id="btn">
+                <button type="button" id="bck2">Back</button>
+                <button type="button">Submit</button>
+            </div>
+        </form>
+
+        <div class="step-row">
+            <div id="progress"></div>
+             <div class="step-col"><small>Step 1</small></div>
+             <div class="step-col"><small>Step 2</small></div>
+             <div class="step-col"><small>Step 3</small></div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
